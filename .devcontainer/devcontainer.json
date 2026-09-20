@@ -1,14 +1,11 @@
 {
     "name": "Barangay Online Service Request System",
-    "dockerComposeFile": "../docker-compose.yml",
-    "service": "app",
+    "image": "://microsoft.com",
     "workspaceFolder": "/workspaces/citech_barangayconnect",
-
     "forwardPorts": [
         8080,
         3306
     ],
-
     "customizations": {
         "vscode": {
             "extensions": [
@@ -18,7 +15,6 @@
             ]
         }
     },
-
     "features": {
         "ghcr.io/devcontainers/features/docker-in-docker:2": {}
     }
