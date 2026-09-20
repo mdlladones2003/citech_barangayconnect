@@ -1,0 +1,25 @@
+{
+    "name": "Barangay Online Service Request System",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "app",
+    "workspaceFolder": "/workspaces/citech_barangayconnect",
+
+    "forwardPorts": [
+        8080,
+        3306
+    ],
+
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "bmewburn.vscode-intelephense-client",
+                "mtxr.sqltools",
+                "mtxr.sqltools-driver-mysql"
+            ]
+        }
+    },
+
+    "features": {
+        "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+    }
+}
